@@ -1,12 +1,15 @@
-{
+4.1.124.1.12{
   "dependencies": {
-    "@strapi/plugin-graphql": "^4.0.0",
-    "@strapi/plugin-i18n": "4.0.7",
-    "@strapi/plugin-users-permissions": "4.0.7",
-    "@strapi/strapi": "4.0.7",
+    "@strapi/plugin-documentation": "^4.1.12",
+    "@strapi/plugin-graphql": "^4.1.11",
+    "@strapi/plugin-i18n": "4.2.0",
+    "@strapi/plugin-users-permissions": "4.2.0",
+    "@strapi/strapi": "4.2.0",
     "lodash.set": "^4.3.2",
     "mime-types": "^2.1.27",
-    "pg": "8.6.0"
+    "pg": "8.6.0",
+    "strapi-plugin-entity-relationship-chart": "^4.1.0",
+    "strapi-tiptap-editor": "^0.7.14"
   },
   "name": "jouskaio-cms",
   "private": true,
