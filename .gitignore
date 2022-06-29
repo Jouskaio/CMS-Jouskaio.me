@@ -80,7 +80,8 @@ $RECYCLE.BIN/
 ssl
 .idea
 nbproject
-public/uploads/*
+# Ucncomment if you don't want images to be downloaded everytime
+#public/uploads/*
 !public/uploads/.gitkeep
 
 ############################
@@ -112,5 +113,4 @@ exports
 *.cache
 build
 .strapi-updater.json
-package.lock.json
 package-lock.json
