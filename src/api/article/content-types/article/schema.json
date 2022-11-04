@@ -32,9 +32,9 @@
       "targetField": "title",
       "required": true
     },
-    "category": {
+    "categories": {
       "type": "relation",
-      "relation": "manyToOne",
+      "relation": "manyToMany",
       "target": "api::category.category",
       "inversedBy": "articles"
     },
@@ -58,6 +58,12 @@
         "FR",
         "EN"
       ]
+    },
+    "tags": {
+      "type": "relation",
+      "relation": "manyToMany",
+      "target": "api::tag.tag",
+      "inversedBy": "articles"
     }
   }
 }
