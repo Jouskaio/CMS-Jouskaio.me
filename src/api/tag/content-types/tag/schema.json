@@ -20,6 +20,13 @@
       "relation": "manyToMany",
       "target": "api::article.article",
       "inversedBy": "tags"
+    },
+    "color": {
+      "type": "string"
+    },
+    "slug": {
+      "type": "uid",
+      "targetField": "name"
     }
   }
 }
