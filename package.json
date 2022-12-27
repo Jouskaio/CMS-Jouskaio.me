@@ -7,7 +7,8 @@
     "@strapi/strapi": "4.5.4",
     "lodash.set": "^4.3.2",
     "mime-types": "^2.1.27",
-    "pg": "8.6.0"
+    "pg": "8.6.0",
+    "react-select": "^5.7.0"
   },
   "name": "jouskaio-cms",
   "private": true,
