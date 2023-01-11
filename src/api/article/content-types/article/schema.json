@@ -64,6 +64,15 @@
       "relation": "manyToMany",
       "target": "api::tag.tag",
       "mappedBy": "articles"
+    },
+    "number": {
+      "type": "integer",
+      "unique": true,
+      "min": 0,
+      "required": true
+    },
+    "location": {
+      "type": "string"
     }
   }
 }
