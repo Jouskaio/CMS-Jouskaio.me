@@ -1,5 +1,7 @@
 {
   "dependencies": {
+    "@api.video/strapi-uploader-plugin": "^1.0.2",
+    "@artcoded/strapi-plugin-github-projects": "^1.0.5",
     "@strapi-newsletter/strapi": "^0.1.2",
     "@strapi/plugin-graphql": "^4.0.0",
     "@strapi/plugin-i18n": "4.5.6",
@@ -9,6 +11,8 @@
     "mime-types": "^2.1.27",
     "pg": "8.6.0",
     "react-select": "^5.7.0",
+    "strapi-chatgpt": "^1.0.2",
+    "strapi-plugin-oembed": "^1.0.1",
     "strapi-tiptap-editor": "^0.9.11"
   },
   "name": "jouskaio-cms",
