@@ -12,8 +12,8 @@
     "pg": "8.6.0",
     "react-select": "^5.7.0",
     "strapi-chatgpt": "^1.0.2",
-    "strapi-plugin-oembed": "^1.0.1",
-    "strapi-tiptap-editor": "^0.9.11"
+    "strapi-plugin-ckeditor5": "^2.1.1-rc.1",
+    "strapi-plugin-oembed": "^1.0.1"
   },
   "name": "jouskaio-cms",
   "private": true,
