@@ -2,18 +2,26 @@
   "dependencies": {
     "@api.video/strapi-uploader-plugin": "^1.0.2",
     "@artcoded/strapi-plugin-github-projects": "^1.0.5",
-    "@strapi-newsletter/strapi": "^0.1.2",
+    "@notum-cz/strapi-plugin-content-versioning": "^1.2.9",
+    "@retikolo/drag-drop-content-types": "^1.5.2",
     "@strapi/plugin-graphql": "^4.0.0",
-    "@strapi/plugin-i18n": "4.8.2",
-    "@strapi/plugin-users-permissions": "4.8.2",
-    "@strapi/strapi": "4.8.2",
+    "@strapi/plugin-i18n": ">=4.20.3",
+    "@strapi/plugin-users-permissions": ">=4.20.3",
+    "@strapi/provider-email-sendmail": "^4.20.3",
+    "@strapi/strapi": ">=4.20.2",
+    "axios": "^1.6.7",
     "lodash.set": "^4.3.2",
     "mime-types": "^2.1.27",
     "pg": "8.6.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-router-dom": "^5.3.4",
     "react-select": "^5.7.0",
     "strapi-chatgpt": "^1.0.2",
     "strapi-plugin-ckeditor5": "^2.1.1-rc.1",
-    "strapi-plugin-oembed": "^1.0.1"
+    "strapi-plugin-email-designer": "^2.2.1",
+    "strapi-plugin-oembed": "^1.0.1",
+    "styled-components": "^5.3.11"
   },
   "name": "jouskaio-cms",
   "private": true,
@@ -33,7 +41,7 @@
     "template": "blog"
   },
   "engines": {
-    "node": ">=12.x.x <=16.x.x",
+    "node": ">=20.6.1",
     "npm": ">=6.0.0"
   },
   "license": "MIT"

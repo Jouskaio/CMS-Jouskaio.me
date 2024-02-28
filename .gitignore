@@ -118,3 +118,14 @@ build
 package-lock.json
 public/uploads/*
 data/*
+# Except
+!data/favicon_08ef55fcb8.png
+!data/logo_222c07e2c7.svg
+!data/logo_63965030d0.svg
+!data/thumbnail_favicon_08ef55fcb8.png
+
+
+############################
+# Security
+dkim-private.pem
+dkim-public.pem
