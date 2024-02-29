@@ -608,7 +608,7 @@ export interface PluginApiVideoUploaderApiVideoAsset
   };
   attributes: {
     title: Attribute.String & Attribute.Required;
-    description: Attribute.String;
+    description: Attribute.String & Attribute.Required;
     _public: Attribute.Boolean & Attribute.Required & Attribute.DefaultTo<true>;
     videoId: Attribute.String &
       Attribute.Required &

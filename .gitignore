@@ -119,10 +119,13 @@ package-lock.json
 public/uploads/*
 data/*
 # Except
-!data/favicon_08ef55fcb8.png
-!data/logo_222c07e2c7.svg
-!data/logo_63965030d0.svg
-!data/thumbnail_favicon_08ef55fcb8.png
+!data/large_Manon_Salsou_fdda1d0c95.JPG
+!data/logo_1fca576043.png
+!data/logo_8c611b19b9.png
+!data/Manon_Salsou_fdda1d0c95.JPG
+!data/small_Manon_Salsou_fdda1d0c95.JPG
+!data/medium_Manon_Salsou_fdda1d0c95.JPG
+!data/thumbnail_Manon_Salsou_fdda1d0c95.JPG
 
 
 ############################
