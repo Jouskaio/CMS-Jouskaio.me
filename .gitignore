@@ -116,16 +116,15 @@ exports
 build
 .strapi-updater.json
 package-lock.json
-public/uploads/*
-data/*
+#public/uploads/*
 # Except
-!data/large_Manon_Salsou_fdda1d0c95.JPG
-!data/logo_1fca576043.png
-!data/logo_8c611b19b9.png
-!data/Manon_Salsou_fdda1d0c95.JPG
-!data/small_Manon_Salsou_fdda1d0c95.JPG
-!data/medium_Manon_Salsou_fdda1d0c95.JPG
-!data/thumbnail_Manon_Salsou_fdda1d0c95.JPG
+#!public/uploads/large_Manon_Salsou_fdda1d0c95.JPG
+#!public/uploads/logo_1fca576043.png
+#!public/uploads/logo_8c611b19b9.png
+#!public/uploads/Manon_Salsou_fdda1d0c95.JPG
+#!public/uploads/small_Manon_Salsou_fdda1d0c95.JPG
+#!public/uploads/medium_Manon_Salsou_fdda1d0c95.JPG
+#!public/uploads/thumbnail_Manon_Salsou_fdda1d0c95.JPG
 
 
 ############################
